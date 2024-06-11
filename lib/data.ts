@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import qualityOfleaf from "@/public/qualityOfleaf.jpeg"
+import NST from "@/public/NST.png"
+import optumRx from "@/public/optumRx.png"
 
 export const links = [
   {
@@ -35,73 +36,90 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor's",
+    location: "India, Vijayawada",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I have graduated with bachelor's degree in computer science from PVPSIT, learned all topics required and got industry ready.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer",
+    location: "India, Hyderabad",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a Software Engineer for 3 years at Optum, where my work was mainly focused on front-end development and at times devops and backend.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Master's",
+    location: "United States, State College",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+      "Currently I am pursuing master's in computer science at penn state university, where my concentration is on Machine Learning ",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - present",
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Member Portal - Optum",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this project for 3 years. People in US use this website to manage their medical finances",
+    tags: ["React", "Next.js", "CosmosDB", "Storybook", "Node.js"],
+    imageUrl: optumRx,
   },
   {
-    title: "rmtDev",
+    title: "Detection of Qualiy of Leaf",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Using this model we can find the melady in the leaf which can be helpful to farmers that can help them in using the appropriate medicine.",
+    tags: ["Python", "Numpy", "keras", "Pandas"],
+    imageUrl: qualityOfleaf,
   },
   {
-    title: "Word Analytics",
+    title: "Neural Style Transfer",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Using this model one can apply any style to a normal image making style transfer easier",
+    tags: ["Python", "Tensorflow", "Pytorch"],
+    imageUrl: NST,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "C",
+  "Java",
+  "Python",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
   "Next.js",
   "Node.js",
+  "Angular.js", 
+  "Spring",
+  "Material UI", 
+  "Storybook", 
+  "HTML" ,
+  "CSS",
   "Git",
+  "GitHub", 
+  "Docker",
   "Tailwind",
-  "Prisma",
   "MongoDB",
+  "MySQL",
+  "Cosmos DB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "Visual Studio", 
+  "Postman",
+  "Android Studio",
+  "Jest",
+  "Cucumber",
+  "Cypress", 
+  "Accelq",
+  "Azure",
+  "Scrum",
+  "Rally"
+ 
 ] as const;

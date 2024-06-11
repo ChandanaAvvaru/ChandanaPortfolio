@@ -49,11 +49,12 @@ export default function Intro() {
         <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{opacity: 0, y:100}}
         animate={{opacity:1,y:0}}>
-        <span className="font-bold">Hello, I am Chandana.</span> I am a{" "}
-        <span className="font-bold">Masters Student</span> at{" "}
+        <span>Hi there!,</span>{" "}
+        <span className="font-bold"> I am Chandana a Masters Student</span> at{" "}
         <span className="font-bold">Pennsylvania State University.</span> I also have an experience
-        of 3 years at {" "}<span className="italic">Optum - United Health Group</span>. I am looking for{" "}
-        <span className="underline">summer 2024 internships</span>.
+        of 3 years at {" "}<span className="italic">Optum - United Health Group as a Software Engineer</span>. I am looking for{" "}
+        <span className="underline">Spring 2025 Co-Op positions or Full Time Positions that starts from May 2025
+</span>.
         </motion.h1>
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
         initial={{opacity: 0, y:100}}
@@ -66,7 +67,7 @@ export default function Intro() {
             <a className='bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full hover:text-gray-950 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' href="https://www.linkedin.com/in/saichandanapriya/" target="_blank">
                 <BsLinkedin />
             </a>
-            <a className='bg-white text-gray-700 p-4 text-[1.35rem] flex items-center gap-2 hover:text-gray-950 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' href="https://chandanaavvaru.github.io/" target="_blank">
+            <a className='bg-white text-gray-700 p-4 text-[1.35rem] flex items-center gap-2 hover:text-gray-950 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' href="https://github.com/ChandanaAvvaru" target="_blank">
                 <FaGithubSquare />
             </a>
         </motion.div>
