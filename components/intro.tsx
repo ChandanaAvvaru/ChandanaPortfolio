@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect } from 'react'
-import photo from '../public/pic.png'
+import photo from '../public/Portfolio.jpg'
 import Image from "next/image"
 import {motion} from 'framer-motion'
 import Link from 'next/link'
@@ -39,9 +39,9 @@ export default function Intro() {
                     type:"tween",
                     duration:0.2
                 }}>
-                <Image src = {photo} alt="Chandana Photo" width="192" height="192" quality="100" priority={true} className='h-24 w-24 rounded-full border-[0.35rem] border-white shadow-xl'></Image>
+                <Image src = {photo} alt="Chandana Photo" width="500" height="150" quality="100" priority={true} className='h-28.5 w-28.5 rounded-full border-[0.35rem] border-white shadow-xl'></Image>
                 </motion.div>
-                <motion.span className='absolute bottom-0 right-0 text-4xl' initial={{opacity: 0, scale: 0}} animate={{opacity:1, scale:1}} transition={{
+                <motion.span className='absolute bottom-0 right-24 text-4xl' initial={{opacity: 0, scale: 0}} animate={{opacity:1, scale:1}} transition={{
                     type: "spring", stiffness: 125, delay: 0.1, duration:0.7
                 }}>👋</motion.span>
             </div>
@@ -53,7 +53,7 @@ export default function Intro() {
         <span className="font-bold"> I am Chandana a Masters Student</span> at{" "}
         <span className="font-bold">Pennsylvania State University.</span> I also have an experience
         of 3 years at {" "}<span className="italic">Optum - United Health Group as a Software Engineer</span>. I am looking for{" "}
-        <span className="underline">Spring 2025 Co-Op positions or Full Time Positions that starts from May 2025
+        <span className="underline">Co-Op/Intern positions or Full Time Positions that starts in 2025
 </span>.
         </motion.h1>
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
