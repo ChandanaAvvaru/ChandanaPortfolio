@@ -50,11 +50,16 @@ export default function Intro() {
         initial={{opacity: 0, y:100}}
         animate={{opacity:1,y:0}}>
         <span>Hi there!,</span>{" "}
-        <span className="font-bold"> I am Chandana a Masters Student</span> at{" "}
-        <span className="font-bold">Pennsylvania State University.</span> I also have an experience
-        of 3 years at {" "}<span className="italic">Optum - United Health Group as a Software Engineer</span>. I am looking for{" "}
-        <span className="underline">Co-Op/Intern positions or Full Time Positions that starts in 2025
-</span>.
+  I’m Chandana, a Master’s student in Computer Science at{" "}
+  <span className="font-bold">Pennsylvania State University</span>,{" "}
+  currently working as a{" "}
+  <span className="font-bold">Front-End Tools Intern at Intel</span> and pursuing my research thesis on machine learning–driven scientific figure captioning (SCI-CAP).
+  I bring 3 years of full-stack experience at Optum - UnitedHealth Group as a Software Engineer, and have a strong academic background focused on machine learning and full-stack development.
+  <br />
+  I am actively looking for{" "}
+  <span className="font-bold">
+    full-time software engineering or research-oriented roles where I can contribute to innovative, impactful solutions.
+  </span>
         </motion.h1>
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
         initial={{opacity: 0, y:100}}

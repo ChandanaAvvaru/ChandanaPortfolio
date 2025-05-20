@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="mb-10 px-4 text-center text-gray-500 pt-[10rem]">
       <small className="mb-2 block text-xs">
-        &copy; I have followed an youtube resource to build this portfolio website.
+        &copy;personal Portfolio
       </small>
       <p className="text-xs">
         <span className="font-semibold">About this website:</span> built with

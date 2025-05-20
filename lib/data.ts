@@ -5,7 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import qualityOfleaf from "@/public/qualityOfleaf.jpeg"
 import NST from "@/public/NST.png"
-import optumRx from "@/public/optumRx.png"
+import optumRx from "@/public/optumRx.jpg"
+import CrowdAI from "@/public/CrowdAI.png" 
 
 export const links = [
   {
@@ -55,13 +56,28 @@ export const experiencesData = [
     title: "Master's",
     location: "United States, State College",
     description:
-      "Currently I am pursuing master's in computer science at penn state university, where my concentration is on Machine Learning ",
+      "Currently I am pursuing master's in computer science at penn state university, where my concentration is on Machine Learning, Full Stack Development.",
     icon: React.createElement(LuGraduationCap),
     date: "2023 - present",
+  },
+   {
+    title: "Front-End Tools Intern",
+    location: "United States, Austin, Texas",
+    description:
+      "At Intel, I'm developing an automated emulation dashboard using GitHub APIs to dynamically display repository information in a clean and customizable format.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - present",
   }
 ] as const;
 
 export const projectsData = [
+  {
+    title: "SCI-CAP",
+    description:
+      "I am developing and deploying a machine learning model that generates captions for scientific figures. This project includes leveraging LLMS and full stack development.", 
+    tags: ["Machine Learning", "Azure Cloud", "Full Stack Development"],
+    imageUrl: CrowdAI,
+  },
   {
     title: "Member Portal - Optum",
     description:

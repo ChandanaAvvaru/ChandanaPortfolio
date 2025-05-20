@@ -43,12 +43,9 @@ export default function About() {
         <span className="font-medium">history and philosophy</span>. I am also
         learning how to play the guitar. */}
 
-A dedicated, self-reliant woman with a passion to learn new things who is prepared to contribute to technology. Being the first-generation child in my family, I have struggled to get to where I am now. I went to Penn State to get a broader perspective on technology and to learn about the world outside of my comfort zone. I worked with Optum for three years, which gave me experience in technology and helped me understand the needs of the sector. Seeing anything on the screen astounds me and piques my curiosity about creating more of the same. Learning about new technologies would be wonderful. 
-
-<span>If anything has to do with healthcare, I am more likely to be interested in it because I enjoy helping others by making their lives simpler. Additionally, because I would like to work on ML-related projects, I have designated ML as my concentration at Penn State. </span>
-
-<span>When I am not working, I like to spend time with my family by chatting to them or going on trips. I am always ready for an adventure and I love to travel the world.</span>
-      </p>
+<p className="mb-3">
+  A dedicated, self-reliant woman with a passion to learn new things who is prepared to contribute to technology. I went to Penn State to get a broader perspective on technology and to learn about the world outside of my comfort zone. I worked with Optum for three years, which gave me experience in technology and helped me understand the needs of the sector. Seeing anything on the screen astounds me and piques my curiosity about creating more of the same. Learning about new technologies would be wonderful. If anything has to do with healthcare, I am more likely to be interested in it because I enjoy helping others by making their lives simpler. Additionally, because I would like to work on ML-related projects, I have designated ML as my concentration at Penn State. When I am not working, I like to spend time with my family by chatting to them or going on trips. I am always ready for an adventure and I love to travel the world.
+</p> </p>
     </motion.section>
   )
 }

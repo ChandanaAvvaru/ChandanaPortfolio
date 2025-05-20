@@ -54,7 +54,7 @@ export default function Project({
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
-        group-hover:scale-[1.04]
+        group-hover:scale-[0.96]
         group-hover:-translate-x-3
         group-hover:translate-y-3
         group-hover:-rotate-2
